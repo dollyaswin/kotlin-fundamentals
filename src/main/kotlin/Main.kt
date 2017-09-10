@@ -14,9 +14,9 @@ typealias UserList = List<User>
 
 fun main(args: Array<String>) {
 
-    val width = 50 // Immediate assignment
+    val width  = 50 // Immediate assignment
     val height = 50 // 'Int' type is inferred
-    var name = "Budi Oktaviyan Suryanto" // 'String' type is inferred
+    var name  = "Budi Oktaviyan Suryanto" // 'String' type is inferred
     var hello = "Hai, My Name is $name" // With 'String' template
 
     // Given a list of odd number
